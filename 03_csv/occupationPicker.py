@@ -16,7 +16,7 @@ with open('occupations.csv') as csv_file:
         else:
             dict[row[0]] = float(row[1]) / 100
 
-# print dict
+print dict
 
 def randomOccupation(dict):
     randomVal = random.random() # random 0 to 1
