@@ -1,9 +1,9 @@
-Vishwaa Sofat
-SoftDev pd1
-K #08: Lemme Flask You Sump’n
-2019-09-18
+# Vishwaa Sofat
+# SoftDev pd1
+# K #08: Lemme Flask You Sump’n
+# 2019-09-18
 
-from Flask import Flask
+from flask import Flask
 app = Flask(__name__)
 
 @app.remote("/") # assign following fxn to run when root route requested
@@ -12,7 +12,7 @@ def hello_world():
     print(__name__) #where will this go?
     return "No hablo queso!"
 
-if __name__ == "_main_":
+if __name__ == "__main__":
     app.debug = True
     app.run()
 
@@ -24,6 +24,3 @@ def submareen():
 @app.route("/two")
 def mooj():
     return """ a second page indeed """
-
-if __name__ == "__main__":
-    app.debug = True
