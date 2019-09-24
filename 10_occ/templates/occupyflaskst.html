@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+
+<html>
+  <head>
+    <link href="/static/styles.css" rel="stylesheet" type="text/css"></link>
+    <title> {{ tab }} </title>
+    <h1> {{ titulo }} </h1>
+    <h3> {{ team }} </h3>
+    <p>{{ descrip }} <p>
+  </head>
+  <body>
+    <h4> Random Occupation: {{ randocc }} </h4>
+    <table>
+      <tr>
+        <th>Occupation</th>
+        <th>Percentage</th>
+      </tr>
+      {# loop to create table values #}
+      {% for arr in occList %}
+        <tr>
+          {# adding link to each occupation #}
+          <td><a href={{ arr[2] }} target="_blank">{{ arr[0] }}</a></td>
+          <td>{{ arr[1] }}</td>
+        </tr>
+      {% endfor %}
+    </table>
+  </body>
+<html>

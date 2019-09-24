@@ -1,0 +1,33 @@
+body {
+  background-color: whitesmoke;
+}
+
+table {
+  width:70%;
+  margin-left:15%;
+  margin-right:15%;
+}
+
+th {
+  height: 50px;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+h1, h3, h4, p, td {
+  text-align: center;
+}
+
+a:link {
+  color: royalblue;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: red;
+}
