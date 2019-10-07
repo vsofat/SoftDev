@@ -3,7 +3,7 @@ import os
 
 partner_pd = 1
 partner_first = 'Yaru'
-partner_last = 'Lu'
+partner_last = 'Luo'
 work_name = '16_flasherit'
 
 if __name__ == '__main__':
