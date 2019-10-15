@@ -2,9 +2,9 @@
 import os
 
 partner_pd = 1
-partner_first = 'Kiran'
-partner_last = 'Vuksanaj'
-work_name = '17_csv2db'
+partner_first = 'Clement'
+partner_last = 'Chan'
+work_name = '18_db-nmcrnch'
 
 if __name__ == '__main__':
     submodule_name = str(partner_pd) + '/' + partner_last.lower() + partner_first[0].upper()

@@ -18,8 +18,6 @@ c = db.cursor()               #facilitate db ops
 
 # < < < INSERT YOUR POPULATE-THE-DB CODE HERE > > >
 
-
-
 with open("students.csv") as file:
     command = "CREATE TABLE students(name TEXT, age INTEGER, id INTEGER PRIMARY KEY)"
     c.execute(command)    # run SQL statement
