@@ -15,7 +15,7 @@ canvas.addEventListener("click", (e) => {
     console.log("here");
     currx = e.pageX - canvas.offsetLeft;
     curry = e.pageY - canvas.offsetTop;
-    ctx.fillStyle = "blue";
+    ctx.fillStyle = "green";
     ctx.beginPath();
     ctx.arc(currx, curry, 10, 0, 2 * Math.PI);
     ctx.fill();
