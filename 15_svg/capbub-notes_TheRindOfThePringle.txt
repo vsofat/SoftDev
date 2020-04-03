@@ -1,0 +1,23 @@
+File 1
+Predictions: Based on html we should see a 2x3 table; Based on JS we should get popup of the cell we click
+Results: Predictions were accurate; when the cell was clicked there was a popup screen that displayed content of cell clicked
+*alert( this.innerHTML )*: is the reason we get a popup with the aforementioned information
+
+File 2:
+*PREDICTIONS
+-After looking at the clicky function and seeing how it makes an alert with the innerhtml of the event in it, I predict an alert will pop up with name of the character in it. It seems like every html element with a <td> has this
+*RESULTS AND REACTIONS
+-It did do my prediction, but it then began also giving me the html code of the whole run after I said done. It then also gave me the html code of the whole table after.
+-Why did it do this? I missed that it also adds this clicky method to html tags with <tr>, which explains why it also showed the html code for the rows and then the whole table as those are where <tr> encases code.
+
+File 3
+Predictions: The JS should result in an alert that displays the html of the whole table as seen in file 2. We will also see the display of the content in the cell clicked as noted in file 1. Something new we expect is seeing content of all cells in that row as a separate alert.
+Results: Predictions were fairly accurate. Instead of seeing content for all cells in the row we saw the html that produced that row.
+
+File 4:
+*PREDICTIONS
+- If we put the "e.stopPropagation();", we think it will make it so that we see only the table code and since the propagation will stop.
+- Without this, it will just show in order: table code, row code, and the name
+- We think the order does matter because so far the order has been from the most recent function was mapped to the earliest
+*RESULTS AND REACTIONS
+- Our predictions were correct. We really got it correct surprisingly
